@@ -18,7 +18,7 @@ class InformationUser extends StatelessWidget {
       height: 320,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: MyAppColors.infoStyleColor,
+        color: AppColors.infoStyleColor,
       ),
       child: Padding(
         padding: const EdgeInsets.all(10.0),

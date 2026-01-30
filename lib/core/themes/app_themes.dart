@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyAppColors {
+class AppColors {
   static Color primary = Color(0xff7876cd);
   static Color secondary = Color(0xff484783);
   static Color titleStyleColor = Color.fromARGB(255, 255, 255, 255);
@@ -24,11 +24,11 @@ class TextStyleApp {
   static TextStyle titleTextStyle = TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 24,
-    color: MyAppColors.subTitleStyleColor,
+    color: AppColors.subTitleStyleColor,
   );
 
   static TextStyle subTitleTextStyle = TextStyle(
-    color: MyAppColors.subTitleStyleColor,
+    color: AppColors.subTitleStyleColor,
     fontSize: 16,
   );
 
@@ -40,12 +40,13 @@ class TextStyleApp {
   static TextStyle calcAppName = TextStyle(
     fontSize: 40,
     fontWeight: FontWeight.w900,
-    color: MyAppColors.appName,
+    color: AppColors.appName,
+    letterSpacing: 8.0,
   );
   static TextStyle fieldsName = TextStyle(
     fontWeight: FontWeight.w500,
     fontSize: 16.0,
-    color: MyAppColors.titleFieldsColor,
+    color: AppColors.titleFieldsColor,
   );
 
   static TextStyle calcButtonStyle = TextStyle(
@@ -68,10 +69,19 @@ class TextStyleApp {
     fontSize: 15,
     fontWeight: FontWeight.w400,
   );
+  static TextStyle infoName = TextStyle(
+    color: Colors.white,
+    fontSize: 22,
+    fontWeight: FontWeight.w500,
+  );
   static TextStyle information = TextStyle(
     color: Colors.white,
     fontSize: 15,
     fontWeight: FontWeight.w400,
   );
-
+  static TextStyle bmiCalcResult = TextStyle(
+    color: Colors.white,
+    fontSize: 35,
+    fontWeight: FontWeight.w900,
+  );
 }

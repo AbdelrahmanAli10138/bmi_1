@@ -23,7 +23,7 @@ class OnBoardingWidgets extends StatelessWidget {
         SizedBox(height: sizedBoxHeight),
         Container(
           decoration: BoxDecoration(
-            color: MyAppColors.primary,
+            color: AppColors.primary,
             borderRadius: BorderRadius.circular(25),
           ),
           padding: EdgeInsets.all(16),

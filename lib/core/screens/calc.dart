@@ -19,7 +19,7 @@ class _CalcState extends State<Calc> {
   TextEditingController heightController = TextEditingController();
   TextEditingController weightController = TextEditingController();
   String? selectedGender;
-  final String appName = "B M I";
+  final String appName = "BMI";
   final String name = "Name";
   final String chooseDate = "BirthDate";
   final String chooseHeight = "Your Height (cm)";
@@ -54,14 +54,7 @@ class _CalcState extends State<Calc> {
       appBar: AppBar(
         title: Padding(
           padding: const EdgeInsets.only(left: 90.0),
-          child: Text(
-            appName,
-            style: TextStyle(
-              fontSize: 40,
-              fontWeight: FontWeight.w900,
-              color: const Color.fromARGB(255, 39, 96, 41),
-            ),
-          ),
+          child: Text(appName, style: TextStyleApp.calcAppName),
         ),
       ),
       body: SafeArea(
@@ -139,7 +132,7 @@ class _CalcState extends State<Calc> {
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 90),
               SizedBox(
                 height: 50,
                 width: 300,

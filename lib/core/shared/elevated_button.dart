@@ -11,7 +11,7 @@ class OnBoardingElevatedButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: MyAppColors.secondary,
+        backgroundColor: AppColors.secondary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadiusGeometry.circular(10),
         ),
@@ -34,7 +34,7 @@ class CalcElevatedButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: MyAppColors.secondary,
+        backgroundColor: AppColors.secondary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadiusGeometry.circular(10),
         ),
@@ -57,7 +57,7 @@ class ReCalcElevatedButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: MyAppColors.secondary,
+        backgroundColor: AppColors.secondary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadiusGeometry.circular(10),
         ),
