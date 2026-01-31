@@ -99,7 +99,7 @@ class Result extends StatelessWidget {
                         Spacer(),
                         Column(
                           children: [
-                            Container(
+                            SizedBox(
                               width: 85,
                               height: 280,
 

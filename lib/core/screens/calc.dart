@@ -108,30 +108,14 @@ class _CalcState extends State<Calc> {
                 child: Text(chooseHeight, style: TextStyleApp.fieldsName),
               ),
               const SizedBox(height: 10),
-              TextFormField(
-                keyboardType: TextInputType.number,
-                controller: heightController,
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-              ),
+              HeightFormField(heightController: heightController),
               const SizedBox(height: 20),
               Align(
                 alignment: Alignment.topLeft,
                 child: Text(chooseWeight, style: TextStyleApp.fieldsName),
               ),
               const SizedBox(height: 10),
-              TextFormField(
-                keyboardType: TextInputType.number,
-                controller: weightController,
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-              ),
+              WeightFormField(weightController: weightController),
               const SizedBox(height: 90),
               SizedBox(
                 height: 50,

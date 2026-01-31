@@ -9,6 +9,7 @@ class AppColors {
   static Color birthDateColor = Color(0xFF333333);
   static Color titleFieldsColor = Color(0xFF333333);
   static Color appName = Color.fromARGB(255, 39, 96, 41);
+  static Color iconColor = Color(0xff484783);
 }
 
 class TextApp {
